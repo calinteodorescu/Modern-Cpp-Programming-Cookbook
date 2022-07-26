@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{1B5B4585-A7E0-4D33-9B33-48502C7AF566}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="chapter01\main.cpp" />
+    <ClCompile Include="chapter01\recipe_1_11_1.cpp" />
+    <ClCompile Include="chapter01\recipe_1_11_2.cpp" />
+    <ClCompile Include="chapter01\recipe_1_11_3.cpp" />
+    <ClCompile Include="chapter02\main.cpp" />
+    <ClCompile Include="chapter03\main.cpp" />
+    <ClCompile Include="chapter04\main.cpp" />
+    <ClCompile Include="chapter05\main.cpp" />
+    <ClCompile Include="chapter06\main.cpp" />
+    <ClCompile Include="chapter07\main.cpp" />
+    <ClCompile Include="chapter08\main.cpp" />
+    <ClCompile Include="chapter09\main.cpp" />
+    <ClCompile Include="chapter10\control.cpp" />
+    <ClCompile Include="chapter10\main.cpp" />
+    <ClCompile Include="chapter11\chapter11bt_01_1\main.cpp" />
+    <ClCompile Include="chapter11\chapter11bt_01_2\main.cpp" />
+    <ClCompile Include="chapter11\chapter11bt_01_3\main.cpp" />
+    <ClCompile Include="chapter11\chapter11bt_02\main.cpp" />
+    <ClCompile Include="chapter11\chapter11bt_03\main.cpp" />
+    <ClCompile Include="chapter11\chapter11bt_04\main.cpp" />
+    <ClCompile Include="chapter11\chapter11bt_05\main.cpp" />
+    <ClCompile Include="chapter11\chapter11ca_01\main.cpp" />
+    <ClCompile Include="chapter11\chapter11ca_02\main.cpp" />
+    <ClCompile Include="chapter11\chapter11ca_03\main.cpp" />
+    <ClCompile Include="chapter11\chapter11ca_04\main.cpp" />
+    <ClCompile Include="chapter11\chapter11gt_01\main.cpp" />
+    <ClCompile Include="chapter11\chapter11gt_02\main.cpp" />
+    <ClCompile Include="chapter11\chapter11gt_03\main.cpp" />
+    <ClCompile Include="chapter11\chapter11gt_04\main.cpp" />
+    <ClCompile Include="chapter11\chapter11gt_05\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chapter01\recipe_1_01.h" />
+    <ClInclude Include="chapter01\recipe_1_02.h" />
+    <ClInclude Include="chapter01\recipe_1_03.h" />
+    <ClInclude Include="chapter01\recipe_1_04.h" />
+    <ClInclude Include="chapter01\recipe_1_05.h" />
+    <ClInclude Include="chapter01\recipe_1_06.h" />
+    <ClInclude Include="chapter01\recipe_1_07.h" />
+    <ClInclude Include="chapter01\recipe_1_08.h" />
+    <ClInclude Include="chapter01\recipe_1_09.h" />
+    <ClInclude Include="chapter01\recipe_1_10.h" />
+    <ClInclude Include="chapter01\recipe_1_11_1.h" />
+    <ClInclude Include="chapter01\recipe_1_11_2.h" />
+    <ClInclude Include="chapter01\recipe_1_12.h" />
+    <ClInclude Include="chapter01\recipe_1_13.h" />
+    <ClInclude Include="chapter02\recipe_2_01.h" />
+    <ClInclude Include="chapter02\recipe_2_02.h" />
+    <ClInclude Include="chapter02\recipe_2_03.h" />
+    <ClInclude Include="chapter02\recipe_2_04.h" />
+    <ClInclude Include="chapter02\recipe_2_05.h" />
+    <ClInclude Include="chapter02\recipe_2_06.h" />
+    <ClInclude Include="chapter02\recipe_2_07.h" />
+    <ClInclude Include="chapter02\recipe_2_08.h" />
+    <ClInclude Include="chapter02\recipe_2_09.h" />
+    <ClInclude Include="chapter02\recipe_2_10.h" />
+    <ClInclude Include="chapter02\recipe_2_11.h" />
+    <ClInclude Include="chapter02\recipe_2_12.h" />
+    <ClInclude Include="chapter02\string_view.h" />
+    <ClInclude Include="chapter03\funclib.h" />
+    <ClInclude Include="chapter03\recipe_3_01.h" />
+    <ClInclude Include="chapter03\recipe_3_02.h" />
+    <ClInclude Include="chapter03\recipe_3_03.h" />
+    <ClInclude Include="chapter03\recipe_3_04.h" />
+    <ClInclude Include="chapter03\recipe_3_05.h" />
+    <ClInclude Include="chapter03\recipe_3_06.h" />
+    <ClInclude Include="chapter03\recipe_3_07.h" />
+    <ClInclude Include="chapter03\recipe_3_08.h" />
+    <ClInclude Include="chapter03\recipe_3_09.h" />
+    <ClInclude Include="chapter04\recipe_4_01.h" />
+    <ClInclude Include="chapter04\recipe_4_02.h" />
+    <ClInclude Include="chapter04\recipe_4_03.h" />
+    <ClInclude Include="chapter04\recipe_4_04.h" />
+    <ClInclude Include="chapter04\recipe_4_05.h" />
+    <ClInclude Include="chapter04\recipe_4_06.h" />
+    <ClInclude Include="chapter05\recipe_5_01.h" />
+    <ClInclude Include="chapter05\recipe_5_02.h" />
+    <ClInclude Include="chapter05\recipe_5_03.h" />
+    <ClInclude Include="chapter05\recipe_5_04.h" />
+    <ClInclude Include="chapter05\recipe_5_05.h" />
+    <ClInclude Include="chapter05\recipe_5_06.h" />
+    <ClInclude Include="chapter05\recipe_5_07.h" />
+    <ClInclude Include="chapter05\recipe_5_08.h" />
+    <ClInclude Include="chapter05\recipe_5_09.h" />
+    <ClInclude Include="chapter05\recipe_5_10.h" />
+    <ClInclude Include="chapter06\recipe_6_01.h" />
+    <ClInclude Include="chapter06\recipe_6_02.h" />
+    <ClInclude Include="chapter06\recipe_6_03.h" />
+    <ClInclude Include="chapter06\recipe_6_04.h" />
+    <ClInclude Include="chapter06\recipe_6_05.h" />
+    <ClInclude Include="chapter06\recipe_6_06.h" />
+    <ClInclude Include="chapter06\recipe_6_07.h" />
+    <ClInclude Include="chapter06\recipe_6_08.h" />
+    <ClInclude Include="chapter06\recipe_6_09.h" />
+    <ClInclude Include="chapter06\recipe_6_10.h" />
+    <ClInclude Include="chapter06\recipe_6_11.h" />
+    <ClInclude Include="chapter07\recipe_7_01.h" />
+    <ClInclude Include="chapter07\recipe_7_02.h" />
+    <ClInclude Include="chapter07\recipe_7_03.h" />
+    <ClInclude Include="chapter07\recipe_7_04.h" />
+    <ClInclude Include="chapter07\recipe_7_05.h" />
+    <ClInclude Include="chapter07\recipe_7_06.h" />
+    <ClInclude Include="chapter07\recipe_7_07.h" />
+    <ClInclude Include="chapter07\recipe_7_08.h" />
+    <ClInclude Include="chapter07\recipe_7_09.h" />
+    <ClInclude Include="chapter07\recipe_7_10.h" />
+    <ClInclude Include="chapter07\recipe_7_11.h" />
+    <ClInclude Include="chapter07\recipe_7_12.h" />
+    <ClInclude Include="chapter08\recipe_8_01.h" />
+    <ClInclude Include="chapter08\recipe_8_02.h" />
+    <ClInclude Include="chapter08\recipe_8_03.h" />
+    <ClInclude Include="chapter08\recipe_8_04.h" />
+    <ClInclude Include="chapter08\recipe_8_05.h" />
+    <ClInclude Include="chapter08\recipe_8_06.h" />
+    <ClInclude Include="chapter08\recipe_8_07.h" />
+    <ClInclude Include="chapter08\recipe_8_08.h" />
+    <ClInclude Include="chapter08\recipe_8_09.h" />
+    <ClInclude Include="chapter08\recipe_8_10.h" />
+    <ClInclude Include="chapter09\recipe_9_01.h" />
+    <ClInclude Include="chapter09\recipe_9_02.h" />
+    <ClInclude Include="chapter09\recipe_9_03.h" />
+    <ClInclude Include="chapter09\recipe_9_04.h" />
+    <ClInclude Include="chapter09\recipe_9_05.h" />
+    <ClInclude Include="chapter09\recipe_9_06.h" />
+    <ClInclude Include="chapter09\recipe_9_07.h" />
+    <ClInclude Include="chapter09\recipe_9_08.h" />
+    <ClInclude Include="chapter10\control.h" />
+    <ClInclude Include="chapter10\recipe_10_01.h" />
+    <ClInclude Include="chapter10\recipe_10_02.h" />
+    <ClInclude Include="chapter10\recipe_10_03.h" />
+    <ClInclude Include="chapter10\recipe_10_04.h" />
+    <ClInclude Include="chapter10\recipe_10_05.h" />
+    <ClInclude Include="chapter10\recipe_10_06.h" />
+    <ClInclude Include="chapter10\recipe_10_07.h" />
+    <ClInclude Include="chapter11\testlib\point3d.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
