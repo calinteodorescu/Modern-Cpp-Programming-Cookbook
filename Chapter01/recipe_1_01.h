@@ -20,7 +20,10 @@ namespace recipe_1_01
 
    auto proxy_get(foo& f) { return f.get(); }
 
-   decltype(auto) proxy_get2(foo& f) { return f.get(); }
+   decltype(auto) proxy_get2(foo& f)
+   { 
+       return f.get(); 
+   }
 
    struct
    {
