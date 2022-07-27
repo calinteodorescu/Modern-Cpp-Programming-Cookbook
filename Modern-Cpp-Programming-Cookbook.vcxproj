@@ -409,6 +409,9 @@
     <ClInclude Include="chapter10\recipe_10_07.h" />
     <ClInclude Include="chapter11\testlib\point3d.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Work\Git\Work\Personal\Job Search.yaml" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

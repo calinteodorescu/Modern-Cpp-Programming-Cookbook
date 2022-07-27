@@ -1,420 +1,424 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
+    <Filter Include="%2a%2a Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    <Filter Include="%2a%2a Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="%2a Documents">
+      <UniqueIdentifier>{293be7d7-b79c-4414-99f1-f53cb7e07b9f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter01\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter01\recipe_1_11_1.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter01\recipe_1_11_2.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter01\recipe_1_11_3.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter02\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter03\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter04\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter05\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter06\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter07\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter08\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter09\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter10\control.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter10\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11bt_01_1\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11bt_01_2\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11bt_01_3\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11bt_02\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11bt_03\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11bt_04\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11bt_05\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11ca_01\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11ca_02\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11ca_03\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11ca_04\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11gt_01\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11gt_02\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11gt_03\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11gt_04\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\chapter11gt_05\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter01\recipe_1_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_08.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_09.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_10.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_11_1.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_11_2.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_12.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter01\recipe_1_13.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_08.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_09.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_10.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_11.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\recipe_2_12.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter02\string_view.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\funclib.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_08.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter03\recipe_3_09.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter04\recipe_4_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter04\recipe_4_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter04\recipe_4_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter04\recipe_4_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter04\recipe_4_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter04\recipe_4_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_08.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_09.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter05\recipe_5_10.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_08.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_09.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_10.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter06\recipe_6_11.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_08.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_09.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_10.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_11.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter07\recipe_7_12.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_08.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_09.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter08\recipe_8_10.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter09\recipe_9_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter09\recipe_9_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter09\recipe_9_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter09\recipe_9_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter09\recipe_9_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter09\recipe_9_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter09\recipe_9_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter09\recipe_9_08.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter10\control.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter10\recipe_10_01.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter10\recipe_10_02.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter10\recipe_10_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter10\recipe_10_04.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter10\recipe_10_05.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter10\recipe_10_06.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter10\recipe_10_07.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chapter11\testlib\point3d.h">
-      <Filter>Header Files</Filter>
+      <Filter>%2a%2a Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Work\Git\Work\Personal\Job Search.yaml">
+      <Filter>%2a Documents</Filter>
+    </None>
   </ItemGroup>
 </Project>
