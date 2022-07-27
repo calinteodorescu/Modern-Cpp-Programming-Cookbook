@@ -46,8 +46,8 @@ namespace recipe_1_06
    {
       Codes code = Codes::Unknown;
 
-      Codes c1 = Codes::OK;					      // OK
-      //int c2 = Codes::Failure;   				   // error
+      Codes c1 = Codes::OK;                          // OK
+      //int c2 = Codes::Failure;                      // error
       int c3 = static_cast<int>(Codes::Failure);// OK
    }
 }

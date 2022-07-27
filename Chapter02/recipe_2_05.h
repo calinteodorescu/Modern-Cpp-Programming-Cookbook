@@ -47,10 +47,10 @@ ORDER BY PubDate DESC)"s };
       }
 
       {
-         auto t1{ LR"(text)" };	// const wchar_t*
-         auto t2{ u8R"(text)" };	// const char*
-         auto t3{ uR"(text)" };	// const char16_t*
-         auto t4{ UR"(text)" };	// const char32_t*
+         auto t1{ LR"(text)" };    // const wchar_t*
+         auto t2{ u8R"(text)" };    // const char*
+         auto t3{ uR"(text)" };    // const char16_t*
+         auto t4{ UR"(text)" };    // const char32_t*
 
          auto t5{ LR"(text)"s }; // wstring
          auto t6{ u8R"(text)"s };// string

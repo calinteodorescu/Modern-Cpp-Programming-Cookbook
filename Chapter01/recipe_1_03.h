@@ -119,11 +119,11 @@ namespace recipe_1_03
       }
 
       {
-         //int i{ 1.2 };  		// error
+         //int i{ 1.2 };          // error
 
          double d = 47 / 13;
-         //float f1{ d };  		// error
-         float f2{ 47 / 13 };		// OK
+         //float f1{ d };          // error
+         float f2{ 47 / 13 };        // OK
       }
 
       {
