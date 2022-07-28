@@ -59,49 +59,49 @@
     <ClCompile Include="chapter11\chapter11bt_01_1\main - 11 - Testing - Boost - 01.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11bt_01_2\main - 12 - Testing - Boost - 02.cpp">
+    <ClCompile Include="chapter11\chapter11bt_01_2\main - 11 - Testing - Boost - 02.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11bt_01_3\main - 13 - Testing - Boost - 03.cpp">
+    <ClCompile Include="chapter11\chapter11bt_01_3\main - 11 - Testing - Boost - 03.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11bt_02\main - 14 - Testing - Boost - 04.cpp">
+    <ClCompile Include="chapter11\chapter11bt_02\main - 11 - Testing - Boost - 04.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11bt_03\main - 15 - Testing - Boost - 05.cpp">
+    <ClCompile Include="chapter11\chapter11bt_03\main - 11 - Testing - Boost - 05.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11bt_04\main - 16 - Testing - Boost - 06.cpp">
+    <ClCompile Include="chapter11\chapter11bt_04\main - 11 - Testing - Boost - 06.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11bt_05\main - 17 - Testing - Boost - 07.cpp">
+    <ClCompile Include="chapter11\chapter11bt_05\main - 11 - Testing - Boost - 07.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11ca_01\main - 18 - Testing - Catch - 01.cpp">
+    <ClCompile Include="chapter11\chapter11ca_01\main - 11 - Testing - Catch - 01.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11ca_02\main - 19 - Testing - Catch - 02.cpp">
+    <ClCompile Include="chapter11\chapter11ca_02\main - 11 - Testing - Catch - 02.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11ca_03\main - 20 - Testing - Catch - 03.cpp">
+    <ClCompile Include="chapter11\chapter11ca_03\main - 11 - Testing - Catch - 03.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11ca_04\main - 21 - Testing - Catch - 04.cpp">
+    <ClCompile Include="chapter11\chapter11ca_04\main - 11 - Testing - Catch - 04.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11gt_01\main - 22 - Testing - GTest - 01.cpp">
+    <ClCompile Include="chapter11\chapter11gt_01\main - 11 - Testing - GTest - 01.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11gt_02\main - 23 - Testing - GTest - 02.cpp">
+    <ClCompile Include="chapter11\chapter11gt_02\main - 11 - Testing - GTest - 02.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11gt_03\main - 24 - Testing - GTest - 03.cpp">
+    <ClCompile Include="chapter11\chapter11gt_03\main - 11 - Testing - GTest - 03.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11gt_04\main - 25 - Testing - GTest - 04.cpp">
+    <ClCompile Include="chapter11\chapter11gt_04\main - 11 - Testing - GTest - 04.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chapter11\chapter11gt_05\main - 26 - Testing - GTest - 05.cpp">
+    <ClCompile Include="chapter11\chapter11gt_05\main - 11 - Testing - GTest - 05.cpp">
       <Filter>%2a%2a Source Files</Filter>
     </ClCompile>
   </ItemGroup>
