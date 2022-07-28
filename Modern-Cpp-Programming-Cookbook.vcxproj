@@ -89,7 +89,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>../Boost.Test/include;../googletest/googletest/include;..//Git/Catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../Boost.Test/include;../googletest/googletest/include;../Catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX86</TargetMachine>
@@ -104,7 +104,7 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>../Boost.Test/include;../googletest/googletest/include;..//Git/Catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../Boost.Test/include;../googletest/googletest/include;../Catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX86</TargetMachine>
@@ -117,7 +117,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>../Boost.Test/include;../googletest/googletest/include;..//Git/Catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../Boost.Test/include;../googletest/googletest/include;../Catch2</AdditionalIncludeDirectories>
       <AdditionalOptions> /GH /Gh %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -127,7 +127,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>../Boost.Test/include;../googletest/googletest/include;..//Git/Catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../Boost.Test/include;../googletest/googletest/include;../Catch2</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
